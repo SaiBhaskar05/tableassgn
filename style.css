@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.home-column {
+    background-color: rgba(250, 168, 199, 0.995); /* Add your desired background color here */
+}
+.time{
+    background-color: rgb(205, 200, 200);
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.day-date{
+    background-color: yellow;
+}
+.heading{
+    background-color: yellow;
+}
